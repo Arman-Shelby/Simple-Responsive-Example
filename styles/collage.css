@@ -27,3 +27,22 @@ img{
 .row > div{
     flex: 1;
 }
+/* responsive media Query */
+@media screen and (max-width: 576px){
+    .row{
+        flex-direction: column;
+        height: auto;
+    }
+    .square-collage{
+        grid-template-columns: 1fr;
+    }
+    
+}
+
+/* Medium Devices */
+@media screen  and (min-width: 576px) and (max-width: 992px){
+     .row{
+        flex-direction: column;
+        height: auto;
+    }
+}
